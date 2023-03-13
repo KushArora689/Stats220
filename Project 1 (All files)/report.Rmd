@@ -1,0 +1,72 @@
+---
+title: "Report"
+author: "Kush Arora"
+date: "2023-03-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Project requirements 
+
+I am confident that I have met the requirements related to working with GitHub and GitHub pages, as I have created a repository called stats220 and in the repository I have edited the read.md file so it contains information about the purpose of my repository. Furthermore I have created a page for my index.html so it is live.
+
+- [My repo](https://github.com/KushArora689/Stats220.git)
+- [My website](https://kusharora689.github.io/Stats220/)
+
+### Photo of the project folder
+![](project folder.jpg)
+
+## How my project demonstrates creativity
+In my explanations I have described the inspiration and sources of my meme. For my animation, I recreated a battle between two game character and explained in my explanations what happens in the fight between them.
+
+Through the use of CSS I have made this website look much more beautiful.
+
+- I have added borders to the images and curved them. 
+- I have changed the Font color and Font type.
+- I have changed the background color to a different color
+- I have underlined the Sub-headings
+- For the main heading I added a separate background color so it stands out 
+
+## Learning reflection
+Creating HTML pages through the use of R markdown I think is a very simple yet powerful way to create nice looking HTML pages. R markdown allows us to use it's simple syntax instead of HTML syntax which is a bit more complicated
+
+In the future I am excited to hopefully explore to use R and R markdown to create much more complicated and meaningful websites. For example, a project can be a graph creator which takes a series of co-ordinates or an equation and creates a graph through that. I am also looking forward to learn more complicated concepts on R, R markdown and CSS.
+```{css}
+p {
+font-weight: bold;
+color: white;
+}
+
+img {
+  border-radius: 8px;
+  border: 5px solid white;
+}
+a{
+font-weight: bold;
+color: hotpink;
+text-decoration: underline;
+}
+
+h1{
+background-color: lightgrey;
+padding: 15px;
+border-radius: 20px;
+}
+
+h2{
+text-decoration: underline;
+
+}
+
+body {
+background-color: #24c5d4;
+color: white;
+font-family: Garamond, serif;
+}
+
+```
+
